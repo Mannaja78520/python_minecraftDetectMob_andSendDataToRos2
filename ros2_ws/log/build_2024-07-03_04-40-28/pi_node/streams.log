@@ -1,0 +1,40 @@
+[1.548s] Invoking command in '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/pi_node': PYTHONPATH=/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pi_node build --build-base /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build install --record /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/install.log --single-version-externally-managed install_data
+[1.957s] running egg_info
+[1.957s] creating ../../build/pi_node/pi_node.egg-info
+[2.173s] writing ../../build/pi_node/pi_node.egg-info/PKG-INFO
+[2.173s] writing dependency_links to ../../build/pi_node/pi_node.egg-info/dependency_links.txt
+[2.174s] writing entry points to ../../build/pi_node/pi_node.egg-info/entry_points.txt
+[2.174s] writing requirements to ../../build/pi_node/pi_node.egg-info/requires.txt
+[2.174s] writing top-level names to ../../build/pi_node/pi_node.egg-info/top_level.txt
+[2.175s] writing manifest file '../../build/pi_node/pi_node.egg-info/SOURCES.txt'
+[2.244s] reading manifest file '../../build/pi_node/pi_node.egg-info/SOURCES.txt'
+[2.245s] adding license file 'LICENSE'
+[2.246s] writing manifest file '../../build/pi_node/pi_node.egg-info/SOURCES.txt'
+[2.246s] running build
+[2.247s] running build_py
+[2.247s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build
+[2.247s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib
+[2.247s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node
+[2.247s] copying pi_node/__init__.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node
+[2.247s] copying pi_node/main_run.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node
+[2.248s] running install
+[2.255s] running install_lib
+[2.286s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node
+[2.286s] copying /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node/__init__.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node
+[2.286s] copying /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node/main_run.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node
+[2.287s] byte-compiling /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node/__init__.py to __init__.cpython-310.pyc
+[2.288s] byte-compiling /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node/main_run.py to main_run.cpython-310.pyc
+[2.290s] running install_data
+[2.290s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/ament_index
+[2.290s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/ament_index/resource_index
+[2.290s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/ament_index/resource_index/packages
+[2.290s] copying resource/pi_node -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/ament_index/resource_index/packages
+[2.290s] copying package.xml -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/pi_node
+[2.291s] creating /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/pi_node/launch
+[2.291s] copying launch/main.launch.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/pi_node/launch
+[2.291s] running install_egg_info
+[2.324s] Copying ../../build/pi_node/pi_node.egg-info to /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node-0.0.0-py3.10.egg-info
+[2.325s] running install_scripts
+[2.394s] Installing main script to /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/pi_node
+[2.395s] writing list of installed files to '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/install.log'
+[2.438s] Invoked command in '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/pi_node' returned '0': PYTHONPATH=/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pi_node build --build-base /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build install --record /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/install.log --single-version-externally-managed install_data

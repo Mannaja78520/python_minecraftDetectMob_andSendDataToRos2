@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 17
+names: ['bee', 'chicken', 'cow', 'creeper', 'enderman', 'fox', 'frog', 'ghast', 'goat', 'llama', 'pig', 'sheep', 'skeleton', 'spider', 'turtle', 'wolf', 'zombie']
+
+roboflow:
+  workspace: minecraft-object-detection
+  project: minecraft-mob-detection
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/minecraft-object-detection/minecraft-mob-detection/dataset/10

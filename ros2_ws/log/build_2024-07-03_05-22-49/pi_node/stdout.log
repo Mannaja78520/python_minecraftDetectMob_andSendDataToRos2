@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/pi_node/pi_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/pi_node/pi_node.egg-info/dependency_links.txt
+writing entry points to ../../build/pi_node/pi_node.egg-info/entry_points.txt
+writing requirements to ../../build/pi_node/pi_node.egg-info/requires.txt
+writing top-level names to ../../build/pi_node/pi_node.egg-info/top_level.txt
+reading manifest file '../../build/pi_node/pi_node.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pi_node/pi_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pi_node/__init__.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node
+copying pi_node/main_run.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/build/lib/pi_node
+running install
+running install_lib
+running install_data
+copying resource/pi_node -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/pi_node
+copying launch/main.launch.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/share/pi_node/launch
+running install_egg_info
+removing '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pi_node/pi_node.egg-info to /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages/pi_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main script to /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/pi_node
+writing list of installed files to '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/pi_node/install.log'

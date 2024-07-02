@@ -1,0 +1,44 @@
+running egg_info
+writing ../../build/laptop_node/laptop_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/laptop_node/laptop_node.egg-info/dependency_links.txt
+writing entry points to ../../build/laptop_node/laptop_node.egg-info/entry_points.txt
+writing requirements to ../../build/laptop_node/laptop_node.egg-info/requires.txt
+writing top-level names to ../../build/laptop_node/laptop_node.egg-info/top_level.txt
+Traceback (most recent call last):
+  File "/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node/setup.py", line 7, in <module>
+    setup(
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 104, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+    return run_commands(dist)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+    dist.run_commands()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+    self.run_command(cmd)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+    super().run_command(command)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+    cmd_obj.run()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in run
+    self.find_sources()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 329, in find_sources
+    mm.run()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 550, in run
+    self.add_defaults()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 588, in add_defaults
+    sdist.add_defaults(self)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 102, in add_defaults
+    super().add_defaults()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 248, in add_defaults
+    self._add_defaults_python()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 113, in _add_defaults_python
+    build_py = self.get_finalized_command('build_py')
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 303, in get_finalized_command
+    cmd_obj.ensure_finalized()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized
+    self.finalize_options()
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/build_py.py", line 39, in finalize_options
+    orig.build_py.finalize_options(self)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/command/build_py.py", line 57, in finalize_options
+    for name, path in self.distribution.package_dir.items():
+AttributeError: 'set' object has no attribute 'items'

@@ -1,0 +1,2 @@
+[console_scripts]
+main = laptop_node.main_run:main

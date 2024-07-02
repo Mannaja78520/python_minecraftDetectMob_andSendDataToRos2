@@ -1,0 +1,31 @@
+[1.284s] Invoking command in '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node': PYTHONPATH=/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laptop_node build --build-base /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build install --record /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/install.log --single-version-externally-managed install_data
+[1.636s] running egg_info
+[1.828s] writing ../../build/laptop_node/laptop_node.egg-info/PKG-INFO
+[1.829s] writing dependency_links to ../../build/laptop_node/laptop_node.egg-info/dependency_links.txt
+[1.830s] writing entry points to ../../build/laptop_node/laptop_node.egg-info/entry_points.txt
+[1.830s] writing requirements to ../../build/laptop_node/laptop_node.egg-info/requires.txt
+[1.830s] writing top-level names to ../../build/laptop_node/laptop_node.egg-info/top_level.txt
+[1.886s] reading manifest file '../../build/laptop_node/laptop_node.egg-info/SOURCES.txt'
+[1.886s] adding license file 'LICENSE'
+[1.887s] writing manifest file '../../build/laptop_node/laptop_node.egg-info/SOURCES.txt'
+[1.887s] running build
+[1.887s] running build_py
+[1.887s] copying laptop_node/__init__.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build/lib/laptop_node
+[1.888s] copying laptop_node/windowcapture.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build/lib/laptop_node
+[1.888s] copying laptop_node/main_run.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build/lib/laptop_node
+[1.888s] copying laptop_node/mobDetecter.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build/lib/laptop_node
+[1.889s] running install
+[1.896s] running install_lib
+[1.924s] copying /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build/lib/laptop_node/mobDetecter.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages/laptop_node
+[1.925s] byte-compiling /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages/laptop_node/mobDetecter.py to mobDetecter.cpython-310.pyc
+[1.926s] running install_data
+[1.926s] copying resource/laptop_node -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/share/ament_index/resource_index/packages
+[1.926s] copying package.xml -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/share/laptop_node
+[1.927s] copying launch/main.launch.py -> /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/share/laptop_node/launch
+[1.927s] running install_egg_info
+[1.957s] removing '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages/laptop_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.958s] Copying ../../build/laptop_node/laptop_node.egg-info to /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages/laptop_node-0.0.0-py3.10.egg-info
+[1.960s] running install_scripts
+[2.022s] Installing main script to /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/laptop_node
+[2.023s] writing list of installed files to '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/install.log'
+[2.057s] Invoked command in '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node' returned '0': PYTHONPATH=/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laptop_node build --build-base /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build install --record /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/install.log --single-version-externally-managed install_data

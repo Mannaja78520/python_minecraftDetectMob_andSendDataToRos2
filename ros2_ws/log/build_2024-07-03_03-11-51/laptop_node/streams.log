@@ -1,0 +1,46 @@
+[1.215s] Invoking command in '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node': PYTHONPATH=/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laptop_node build --build-base /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build install --record /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/install.log --single-version-externally-managed install_data
+[1.625s] running egg_info
+[1.866s] writing ../../build/laptop_node/laptop_node.egg-info/PKG-INFO
+[1.866s] writing dependency_links to ../../build/laptop_node/laptop_node.egg-info/dependency_links.txt
+[1.866s] writing entry points to ../../build/laptop_node/laptop_node.egg-info/entry_points.txt
+[1.866s] writing requirements to ../../build/laptop_node/laptop_node.egg-info/requires.txt
+[1.867s] writing top-level names to ../../build/laptop_node/laptop_node.egg-info/top_level.txt
+[1.897s] Traceback (most recent call last):
+[1.897s]   File "/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node/setup.py", line 7, in <module>
+[1.897s]     setup(
+[1.897s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 104, in setup
+[1.897s]     return distutils.core.setup(**attrs)
+[1.897s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[1.897s]     return run_commands(dist)
+[1.897s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[1.897s]     dist.run_commands()
+[1.898s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+[1.898s]     self.run_command(cmd)
+[1.898s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/dist.py", line 967, in run_command
+[1.898s]     super().run_command(command)
+[1.898s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 988, in run_command
+[1.898s]     cmd_obj.run()
+[1.899s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 321, in run
+[1.899s]     self.find_sources()
+[1.899s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 329, in find_sources
+[1.899s]     mm.run()
+[1.899s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 550, in run
+[1.899s]     self.add_defaults()
+[1.900s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 588, in add_defaults
+[1.900s]     sdist.add_defaults(self)
+[1.900s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 102, in add_defaults
+[1.900s]     super().add_defaults()
+[1.900s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 248, in add_defaults
+[1.900s]     self._add_defaults_python()
+[1.900s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 113, in _add_defaults_python
+[1.900s]     build_py = self.get_finalized_command('build_py')
+[1.900s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 303, in get_finalized_command
+[1.901s]     cmd_obj.ensure_finalized()
+[1.901s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized
+[1.901s]     self.finalize_options()
+[1.901s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/build_py.py", line 39, in finalize_options
+[1.901s]     orig.build_py.finalize_options(self)
+[1.901s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/command/build_py.py", line 57, in finalize_options
+[1.901s]     for name, path in self.distribution.package_dir.items():
+[1.901s] AttributeError: 'set' object has no attribute 'items'
+[1.937s] Invoked command in '/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node' returned '1': PYTHONPATH=/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/laptop_node build --build-base /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/build install --record /home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/build/laptop_node/install.log --single-version-externally-managed install_data
