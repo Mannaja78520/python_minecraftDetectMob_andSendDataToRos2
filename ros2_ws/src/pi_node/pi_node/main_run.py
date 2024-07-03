@@ -3,8 +3,8 @@ from rclpy import qos
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String
-from pynput import keyboard
-import threading
+# from pynput import keyboard
+# import threading
 import time
 from adafruit_servokit import ServoKit
 
@@ -99,11 +99,11 @@ class mainRun(Node):
         #     rclpy.shutdown()
         return
 
-    def start_listening(self):
-        self.keyboard_callback()
-        with keyboard.Listener(on_press=self.on_press, on_release=self.on_release) as listener:
-            self.get_logger().info('Listening for keyboard input...')
-            listener.join()
+    # def start_listening(self):
+    #     self.keyboard_callback()
+    #     with keyboard.Listener(on_press=self.on_press, on_release=self.on_release) as listener:
+    #         self.get_logger().info('Listening for keyboard input...')
+    #         listener.join()
 
     def keyboard_callback(self, msg = ''):
         # key = msg.data.strip()
@@ -181,8 +181,8 @@ def main():
     rclpy.init()
 
     sub = mainRun()   
-    sub_thread = threading.Thread(target=sub.start_listening)
-    sub_thread.start()
+    # sub_thread = threading.Thread(target=sub.start_listening)
+    # sub_thread.start()
     rclpy.spin(sub)
     rclpy.shutdown()
     
