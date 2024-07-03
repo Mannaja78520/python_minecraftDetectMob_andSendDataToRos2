@@ -125,6 +125,5 @@ def main():
     rclpy.shutdown()
     cv.destroyAllWindows()
     
-    
 if __name__ == "__main__":
     main()
