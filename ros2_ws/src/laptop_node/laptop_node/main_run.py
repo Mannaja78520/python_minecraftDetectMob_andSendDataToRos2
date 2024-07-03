@@ -12,7 +12,7 @@ import threading
 
 from laptop_node.windowcapture import WindowCapture
     
-model = YOLO('/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node/laptop_node/best.pt')  # Use your custom model if you have one
+model = YOLO('/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/src/laptop_node/laptop_node/best2.pt')  # Use your custom model if you have one
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -49,37 +49,42 @@ class mainRun(Node):
 
     def on_press(self, key):
         try:
-            self.get_logger().info(f'Key pressed: {key.char}')
+            # self.get_logger().info(f'Key pressed: {key.char}')
             keyboard_msg = String()
-            keyboard_msg.data = f'Key pressed: {key.char}'
+            # keyboard_msg.data = f'Key pressed: {key.char}'
+            keyboard_msg.data = str(key.char)
             self.send_keyboard.publish(keyboard_msg)
+            
         except AttributeError:
-            self.get_logger().info(f'Special key pressed: {key}')
-
+            # self.get_logger().info(f'Special key pressed: {key}')
+            return
     def on_release(self, key):
-        self.get_logger().info(f'Key released: {key}')
+        # self.get_logger().info(f'Key released: {key}')
         if key == keyboard.Key.esc:
             self.get_logger().info('Exiting...')
             rclpy.shutdown()
 
     def start_listening(self):
-        self.keyboard_callback()
         with keyboard.Listener(on_press=self.on_press, on_release=self.on_release) as listener:
             self.get_logger().info('Listening for keyboard input...')
             listener.join()
 
     def keyboard_callback(self, msg = ''):
-        keys = msg.split('+')
-        self.get_logger().info(f'Received keys: {keys}')
-        
+        # key = msg.data.strip()
+        if hasattr(msg, 'data'):
+            key = msg.data.strip()
+        else:
+            key = msg.strip()
+        self.get_logger().info(f'Received keys: {key}')
+        print(key)
         # Handle key combinations
-        pyautogui.hotkey(*keys)
+        pyautogui.hotkey(key)
             
     def detectMobs(self):
-        screenshot = wincap.get_screenshot()
+        screenshot = cv.cvtColor(wincap.get_screenshot(), cv.COLOR_BGR2RGB)
 
         results = model.predict(screenshot)
-        # Check if there are any detections
+        # Check if there are any, detections
         if len(results[0].boxes) > 0:
             self.x = results[0].boxes.xywh[0][0].item()
             self.y = results[0].boxes.xywh[0][1].item()
@@ -112,6 +117,7 @@ class mainRun(Node):
         
         mobdata_msg.linear.x = self.x
         mobdata_msg.linear.y = self.y
+        # print("kuy")
         
         self.sent_where_mob.publish(mobdata_msg)
         

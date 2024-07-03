@@ -3,7 +3,6 @@ from PIL import Image
 import Xlib.display
 
 class WindowCapture:
-
     # properties
     w = 0
     h = 0
@@ -66,10 +65,16 @@ class WindowCapture:
 
     def get_screenshot(self):
         raw = self.window.get_image(0, 0, self.w, self.h, Xlib.X.ZPixmap, 0xffffffff)
-        img = Image.frombytes("RGB", (self.w, self.h), raw.data, "raw", "BGRX")
+        if isinstance(raw.data, str):
+            raw_data_bytes = raw.data.encode()  # Convert string to bytes
+        else:
+            raw_data_bytes = raw.data  # Already in bytes
+
+        # Convert the raw data bytes to an image
+        img = Image.frombytes("RGB", (self.w, self.h), raw_data_bytes, "raw", "BGRX")
         img = np.array(img)
 
-        # make image C_CONTIGUOUS
+        # Make image C_CONTIGUOUS
         img = np.ascontiguousarray(img)
 
         return img
